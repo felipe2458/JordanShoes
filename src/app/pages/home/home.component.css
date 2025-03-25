@@ -1,0 +1,84 @@
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.container > header{
+  width: 100%;
+  font-family: "Archivo", sans-serif;
+}
+
+header .title-wraper{
+  padding: 10px;
+}
+
+header .title-wraper h1{
+  font-size: 24px;
+  text-align: center;
+}
+
+header .content-wraper{
+  width: 100%;
+  height: 400px;
+  background-image: url(../../../../public//images/09b1a20191a57e504bf41c599dbaca80.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  position: relative;
+}
+
+header .content-wraper::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .content-wraper .container-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 6% 0 0 19%;
+}
+
+header .content-wraper .text-wraper{
+  width: 557px;
+  height: 211px;
+  color: white;
+  padding: 10px;
+}
+
+.content-wraper .text-wraper header{
+  display: flex;
+}
+
+.content-wraper .text-wraper header .text{
+  padding: 1% 0 0 1%;
+  font-weight: 500;
+}
+
+.content-wraper .text-wraper .descripiton{
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+
+.text-wraper .descripiton .description-title h2{
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.text-wraper .descripiton .descripiton-text{
+  margin-top: 20px;
+}
+
+.text-wraper .descripiton .descripiton-text h4{
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+}
