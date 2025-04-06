@@ -33,4 +33,28 @@
       </div><!-- container-text -->
     </div><!-- content-wraper -->
   </header>
+
+  <section>
+    <div class="container-centralize">
+      <header>
+        <div class="text-centralize">
+          <div class="title-centralize">
+            <h2>Os melhores em só lugar</h2>
+          </div><!-- title-centralize -->
+
+          <div class="text-centralize-sub">
+            <p>A marca Jordan na JordanShoes é a escolha certa para os amantes de sneakers que buscam estilo e conforto.</p>
+          </div><!-- text-centralize -->
+        </div><!-- text-centralize -->
+      </header>
+
+      <section class="container-products">
+        @for(product of products; track product) {
+          <div class="product-wraper">
+            <app-products [name_product]="product.name" [price_product]="product.price" [url_image]="product.url_image"></app-products>
+          </div><!-- product-wraper -->
+        }
+      </section><!-- container-products -->
+    </div><!-- container-centralize -->
+  </section>
 </div><!-- container -->
