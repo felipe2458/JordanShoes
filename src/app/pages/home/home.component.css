@@ -1,6 +1,7 @@
 .container{
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .container > header{
@@ -245,5 +246,27 @@ section .container-centralize header .text-centralize{
 
   .container-centralize section.container-products{
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .container > header .title-wraper h1{
+    font-size: 14px;
+  }
+
+  header .content-wraper .container-text{
+    padding: 22% 0 0 8%;
+  }
+
+  header .content-wraper .text-wraper{
+    max-width: 308px;
+  }
+
+  .container-text .text-wraper .description .description-title h2{
+    padding-top: 10px;
+  }
+
+  section .container-centralize header .text-centralize{
+    width: 90%;
   }
 }

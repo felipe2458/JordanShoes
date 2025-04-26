@@ -13,32 +13,32 @@ export class HomeComponent {
     {
       name: "Air Jordan 1 Mid Dutch Green",
       price: "1.199,99",
-      url_image: "/images/jordan1.png"
+      url_image: "assets/images/jordan1.png"
     },
     {
       name: "Air Jordan 1 High Zoom CMFT Tropical Twist",
       price: "1.049,00",
-      url_image: "/images/jordan2.png"
+      url_image: "assets/images/jordan2.png"
     },
     {
       name: "Air Jordan 1 Mid Dutch Green",
       price: "1.350,00",
-      url_image: "/images/jordan3.png"
+      url_image: "assets/images/jordan3.png"
     },
     {
       name: 'Air Jordan 1 Mid GS "Light Smoke Grey"',
       price: "1.585,00",
-      url_image: "/images/jordan4.png"
+      url_image: "assets/images/jordan4.png"
     },
     {
       name: "Air Jordan 1 Mid SE Bright Citrus",
       price: "949,99",
-      url_image: "/images/jordan5.png"
+      url_image: "assets/images/jordan5.png"
     },
     {
       name: "Air Jordan 1 Mid Grey Camo",
       price: "999,99",
-      url_image: "/images/jordan6.png"
+      url_image: "assets/images/jordan6.png"
     }
   ];
 }
