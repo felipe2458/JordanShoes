@@ -40,3 +40,9 @@
 .container .infos-wraper .price-wraper{
   font-family: "Space Grotesk", sans-serif;
 }
+
+@media screen and (max-width: 1190px){
+  .container .infos-wraper .name-wraper h1{
+    font-size: 14px;
+  }
+}

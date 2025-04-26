@@ -63,21 +63,21 @@ header .content-wraper .text-wraper{
   font-weight: 500;
 }
 
-.content-wraper .text-wraper .descripiton{
+.content-wraper .text-wraper .description{
   width: 100%;
   margin: 20px 0 0 0;
 }
 
-.text-wraper .descripiton .description-title h2{
-  font-weight: 400;
+.text-wraper .description .description-title h2{
+  font-weight: 500;
   font-size: 30px;
 }
 
-.text-wraper .descripiton .descripiton-text{
+.text-wraper .description .description-text{
   margin-top: 20px;
 }
 
-.text-wraper .descripiton .descripiton-text h4{
+.text-wraper .description .description-text h4{
   font-weight: 300;
   font-size: 22px;
   line-height: 30px;
@@ -90,8 +90,7 @@ header .content-wraper .text-wraper{
 }
 
 section .container-centralize{
-  width: 75%;
-  height: 100%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -104,7 +103,7 @@ section .container-centralize header{
 }
 
 section .container-centralize header .text-centralize{
-  width: 45%;
+  width: 55%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -135,18 +134,116 @@ section .container-centralize header .text-centralize{
 
 .container-centralize section.container-products{
   width: 100%;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .container-centralize section.container-products .product-wraper{
-  width: 30%;
+  width: 100%;
+  max-width: 384px;
   height: 400px;
 }
 
-.container-centralize section.container-products .product-wraper:nth-of-type(n + 4){
-  margin-top: -5%;
+@media screen and (max-width: 1470px){
+  .container-centralize section.container-products{
+    gap: 7.3%;
+  }
+
+  .container-centralize section.container-products .product-wraper{
+    width: 100%;
+    max-width: 336px;
+  }
+}
+
+@media screen and (max-width: 1325px){
+  section .container-centralize{
+    width: 90%;
+  }
+
+  .container-centralize section.container-products .product-wraper{
+    min-width: 319px;
+    max-width: 319px;
+  }
+}
+
+@media screen and (max-width: 1190px){
+  section .container-centralize{
+    width: 100%;
+  }
+
+  section .container-centralize header .text-centralize{
+    width: 70%;
+  }
+
+  .container-centralize section.container-products{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 850px){
+  header .content-wraper .container-text{
+    padding: 10% 0 0 3%;
+  }
+
+  header .content-wraper .text-wraper{
+    height: 152px;
+  }
+
+  .content-wraper .container-text .text-wraper header .svg-wraper{
+    width: 24px;
+    height: 24px;
+  }
+
+  .content-wraper .container-text .text-wraper header .svg-wraper svg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-text .text-wraper header .text h4{
+    font-size: 16px;
+  }
+
+  .container-text .text-wraper .description .description-title h2{
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+  }
+
+  .container-text .text-wraper .description .description-text h4{
+    font-size: 14px;
+    line-height: initial;
+  }
+
+  section .container-centralize header .text-centralize .title-centralize h2{
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  section .container-centralize header .text-centralize .text-centralize-sub p{
+    font-size: 16px;
+  }
+
+  .container-centralize section.container-products{
+    margin-top: -80px;
+  }
+}
+
+@media screen and (max-width: 830px){
+  header .title-wraper h1{
+    font-size: 16px;
+  }
+
+  header .content-wraper{
+    background-position: center;
+  }
+
+  section .container-centralize header{
+    padding: 30px 0;
+    height: auto;
+  }
+
+  .container-centralize section.container-products{
+    margin-top: 0;
+  }
 }
